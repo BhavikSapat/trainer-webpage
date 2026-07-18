@@ -543,7 +543,7 @@ export default function Trainer({ data }: { data?: any }) {
             </div>
 
             <div className="hidden lg:flex items-center space-x-6">
-              <button onClick={() => scrollToSection("contact")}
+              <button onClick={() => scrollToSection("faq")}
                 className="bg-[#111827] text-white px-8 py-3 text-xs uppercase tracking-[0.15em] hover:bg-[#B5A48B] transition-colors duration-400">
                 Book a Session
               </button>
@@ -861,7 +861,7 @@ export default function Trainer({ data }: { data?: any }) {
           </section>
 
           {/* FAQ & Contact Section Split */}
-          <section id="contact" className="bg-[#FAFAFA]">
+          <section id="faq" className="bg-[#FAFAFA]">
             <div className="grid lg:grid-cols-2">
               
               {/* FAQ Side */}
