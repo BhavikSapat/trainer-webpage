@@ -1,0 +1,432 @@
+{
+  "tabs": {
+    "basicInfo": {
+      "type": "section",
+      "label": "Basic Information",
+      "fields": [
+        {
+          "name": "companyName",
+          "type": "text",
+          "label": "Company Name",
+          "placeholder": "QiFlow"
+        },
+        {
+          "name": "logo",
+          "type": "url",
+          "label": "Company Logo URL",
+          "placeholder": "Image URL"
+        },
+        {
+          "name": "tagline",
+          "type": "text",
+          "label": "Tagline",
+          "placeholder": "Awaken Your Vital Energy"
+        }
+      ]
+    },
+    "heroSection": {
+      "type": "section",
+      "label": "Hero Section",
+      "fields": [
+        {
+          "name": "badge",
+          "type": "text",
+          "label": "Badge/Label",
+          "placeholder": "Awaken Your Vital Energy"
+        },
+        {
+          "name": "title",
+          "type": "text",
+          "label": "Hero Title",
+          "placeholder": "Cultivate Balance"
+        },
+        {
+          "name": "highlight",
+          "type": "text",
+          "label": "Highlighted Text",
+          "placeholder": "Find Inner Peace."
+        },
+        {
+          "name": "description",
+          "type": "textarea",
+          "label": "Hero Description",
+          "placeholder": "Master the art of mindful movement and breathwork. Join our guided sessions to heal your body, elevate your spirit, and discover profound tranquility."
+        },
+        {
+          "name": "buttonText",
+          "type": "text",
+          "label": "Button Text",
+          "placeholder": "Discover the Practice"
+        },
+        {
+          "name": "image",
+          "type": "url",
+          "label": "Hero Image URL",
+          "placeholder": "Image URL"
+        },
+        {
+          "name": "stat1Number",
+          "type": "text",
+          "label": "Stat 1 Number",
+          "placeholder": "20+"
+        },
+        {
+          "name": "stat1Label",
+          "type": "text",
+          "label": "Stat 1 Label",
+          "placeholder": "Years of Mastery"
+        },
+        {
+          "name": "stat2Number",
+          "type": "text",
+          "label": "Stat 2 Number",
+          "placeholder": "5K+"
+        },
+        {
+          "name": "stat2Label",
+          "type": "text",
+          "label": "Stat 2 Label",
+          "placeholder": "Practitioners"
+        },
+        {
+          "name": "stat3Number",
+          "type": "text",
+          "label": "Stat 3 Number",
+          "placeholder": "100%"
+        },
+        {
+          "name": "stat3Label",
+          "type": "text",
+          "label": "Stat 3 Label",
+          "placeholder": "Harmony"
+        }
+      ]
+    },
+    "aboutSection": {
+      "type": "section",
+      "label": "About Section",
+      "fields": [
+        {
+          "name": "badge",
+          "type": "text",
+          "label": "Badge/Label",
+          "placeholder": "The Master"
+        },
+        {
+          "name": "title",
+          "type": "text",
+          "label": "About Title",
+          "placeholder": "Movement is the"
+        },
+        {
+          "name": "highlight",
+          "type": "text",
+          "label": "Highlighted Text",
+          "placeholder": "song of the body."
+        },
+        {
+          "name": "description",
+          "type": "textarea",
+          "label": "About Description",
+          "placeholder": "With over two decades dedicated to traditional Qigong and Tai Chi, Master Lin curates an environment of pure tranquility. The philosophy is simple: true health originates from the uninterrupted, harmonious flow of Qi."
+        },
+        {
+          "name": "image",
+          "type": "url",
+          "label": "About Image URL",
+          "placeholder": "Image URL"
+        }
+      ]
+    },
+    "benefitsSection": {
+      "type": "dynamic-section",
+      "label": "Benefits Section",
+      "fields": [
+        {
+          "name": "badge",
+          "type": "text",
+          "label": "Badge/Label",
+          "placeholder": "The Philosophy"
+        },
+        {
+          "name": "title",
+          "type": "text",
+          "label": "Section Title",
+          "placeholder": "The Power of"
+        },
+        {
+          "name": "highlight",
+          "type": "text",
+          "label": "Highlighted Text",
+          "placeholder": "Qi"
+        },
+        {
+          "name": "benefits",
+          "type": "dynamic-array",
+          "label": "Benefits",
+          "itemFields": [
+            {
+              "name": "title",
+              "type": "text",
+              "label": "Benefit Title",
+              "placeholder": "Mental Clarity"
+            },
+            {
+              "name": "description",
+              "type": "textarea",
+              "label": "Benefit Description",
+              "placeholder": "Dissolve mental fatigue and cultivate a razor-sharp, tranquil focus."
+            }
+          ],
+          "placeholder": "Mental Clarity | Dissolve mental fatigue and cultivate a razor-sharp focus., Emotional Balance | Release stagnant energy elevating your mood."
+        }
+      ]
+    },
+    "sessionsSection": {
+      "type": "dynamic-section",
+      "label": "Sessions Section",
+      "fields": [
+        {
+          "name": "badge",
+          "type": "text",
+          "label": "Badge/Label",
+          "placeholder": "Our Offerings"
+        },
+        {
+          "name": "title",
+          "type": "text",
+          "label": "Section Title",
+          "placeholder": "Curated"
+        },
+        {
+          "name": "highlight",
+          "type": "text",
+          "label": "Highlighted Text",
+          "placeholder": "Practices"
+        },
+        {
+          "name": "sessions",
+          "type": "dynamic-array",
+          "label": "Sessions",
+          "itemFields": [
+            {
+              "name": "title",
+              "type": "text",
+              "label": "Session Title",
+              "placeholder": "Eight Brocades"
+            },
+            {
+              "name": "description",
+              "type": "textarea",
+              "label": "Session Description",
+              "placeholder": "An elegant, flowing sequence designed for beginners to open essential energy channels."
+            },
+            {
+              "name": "image",
+              "type": "url",
+              "label": "Session Image URL",
+              "placeholder": "Image URL"
+            },
+            {
+              "name": "duration",
+              "type": "text",
+              "label": "Duration",
+              "placeholder": "45 min"
+            },
+            {
+              "name": "level",
+              "type": "text",
+              "label": "Level",
+              "placeholder": "Foundational"
+            }
+          ],
+          "placeholder": "Eight Brocades | An elegant flowing sequence for beginners. | Image URL | 45 min | Foundational, Medical Qigong | Targeted micro-movements for organ vitality. | Image URL | 60 min | All Levels"
+        }
+      ]
+    },
+    "testimonialsSection": {
+      "type": "dynamic-section",
+      "label": "Testimonials Section",
+      "fields": [
+        {
+          "name": "badge",
+          "type": "text",
+          "label": "Badge/Label",
+          "placeholder": "Perspectives"
+        },
+        {
+          "name": "title",
+          "type": "text",
+          "label": "Section Title",
+          "placeholder": "Student"
+        },
+        {
+          "name": "highlight",
+          "type": "text",
+          "label": "Highlighted Text",
+          "placeholder": "Journeys"
+        },
+        {
+          "name": "testimonials",
+          "type": "dynamic-array",
+          "label": "Testimonials",
+          "itemFields": [
+            {
+              "name": "name",
+              "type": "text",
+              "label": "Client Name",
+              "placeholder": "Sarah Mitchell"
+            },
+            {
+              "name": "role",
+              "type": "text",
+              "label": "Client Role",
+              "placeholder": "Yoga Instructor"
+            },
+            {
+              "name": "quote",
+              "type": "textarea",
+              "label": "Testimonial Quote",
+              "placeholder": "Master Lin's approach is profoundly grounding. The breathwork has completely redefined my daily routine."
+            }
+          ],
+          "placeholder": "Sarah Mitchell | Yoga Instructor | Master Lin's approach is profoundly grounding., David Nakamura | Architect | The mental clarity I've gained is remarkable."
+        }
+      ]
+    },
+    "faqSection": {
+      "type": "dynamic-section",
+      "label": "FAQs Section",
+      "fields": [
+        {
+          "name": "badge",
+          "type": "text",
+          "label": "Badge/Label",
+          "placeholder": "Inquiries"
+        },
+        {
+          "name": "title",
+          "type": "text",
+          "label": "Section Title",
+          "placeholder": "Common"
+        },
+        {
+          "name": "highlight",
+          "type": "text",
+          "label": "Highlighted Text",
+          "placeholder": "Questions"
+        },
+        {
+          "name": "faqs",
+          "type": "dynamic-array",
+          "label": "FAQ Items",
+          "itemFields": [
+            {
+              "name": "question",
+              "type": "text",
+              "label": "Question",
+              "placeholder": "Is prior experience required?"
+            },
+            {
+              "name": "answer",
+              "type": "textarea",
+              "label": "Answer",
+              "placeholder": "Not at all. Our foundational classes are adaptable to any fitness level."
+            }
+          ],
+          "placeholder": "Is prior experience required? | Not at all. Our foundational classes are adaptable., What is the recommended attire? | Loose, breathable garments that allow for unrestricted motion."
+        }
+      ]
+    },
+    "contactInfo": {
+      "type": "section",
+      "label": "Contact Information",
+      "fields": [
+        {
+          "name": "phone",
+          "type": "text",
+          "label": "Phone Number",
+          "placeholder": "+91 12345 67890"
+        },
+        {
+          "name": "email",
+          "type": "email",
+          "label": "Email Address",
+          "placeholder": "inquiries@qiflow.com"
+        },
+        {
+          "name": "address",
+          "type": "textarea",
+          "label": "Office Address",
+          "placeholder": "Mumbai, Maharashtra - 400000"
+        },
+        {
+          "name": "whatsapp",
+          "type": "text",
+          "label": "WhatsApp Number",
+          "placeholder": "1234567890"
+        }
+      ]
+    },
+    "socialLinks": {
+      "type": "section",
+      "label": "Social Links",
+      "fields": [
+        {
+          "name": "instagram",
+          "type": "text",
+          "label": "Instagram URL",
+          "placeholder": "https://www.instagram.com/"
+        },
+        {
+          "name": "facebook",
+          "type": "text",
+          "label": "Facebook URL",
+          "placeholder": "https://www.facebook.com/"
+        },
+        {
+          "name": "linkedin",
+          "type": "text",
+          "label": "LinkedIn URL",
+          "placeholder": "https://www.linkedin.com/"
+        },
+        {
+          "name": "youtube",
+          "type": "text",
+          "label": "YouTube URL",
+          "placeholder": "https://www.youtube.com/"
+        }
+      ]
+    },
+    "footerSection": {
+      "type": "section",
+      "label": "Footer Section",
+      "fields": [
+        {
+          "name": "description",
+          "type": "textarea",
+          "label": "Footer Description",
+          "placeholder": "Elevating the human experience through ancient movement and mindful breathwork. Discover the art of stillness in motion."
+        },
+        {
+          "name": "quickLinksLabel",
+          "type": "text",
+          "label": "Quick Links Label",
+          "placeholder": "Navigation"
+        },
+        {
+          "name": "contactLabel",
+          "type": "text",
+          "label": "Contact Label",
+          "placeholder": "Contact"
+        },
+        {
+          "name": "copyright",
+          "type": "text",
+          "label": "Copyright Text",
+          "placeholder": "© 2026 QiFlow. All rights reserved."
+        }
+      ]
+    }
+  }
+}
