@@ -801,7 +801,7 @@ export default function Trainer({ data }: { data?: any }) {
                       <p className="text-[#4B5563] font-light leading-relaxed text-sm mb-4 md:mb-6 line-clamp-2">
                         {session.description}
                       </p>
-                      <button onClick={() => scrollToSection("contact")} className="text-[10px] md:text-[11px] uppercase tracking-[0.2em] text-[#111827] border-b border-[#111827] pb-1 hover:text-[#B5A48B] hover:border-[#B5A48B] transition-colors">
+                      <button onClick={() => scrollToSection("faq")} className="text-[10px] md:text-[11px] uppercase tracking-[0.2em] text-[#111827] border-b border-[#111827] pb-1 hover:text-[#B5A48B] hover:border-[#B5A48B] transition-colors">
                         Reserve Space
                       </button>
                     </div>
